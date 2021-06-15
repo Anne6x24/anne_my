@@ -1,0 +1,177 @@
+h1, h3, h4, h5, a, footer {
+    font-family: InaiMathi;
+    text-align: center;
+    }
+
+h2, p {
+    font-family: InaiMathi;
+}
+
+    
+    
+    
+    
+    h2, h4, h5 {
+      font-weight: lighter;
+    }
+
+    img {
+        max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      
+      }
+
+
+.text, .concept {
+    padding: 2rem;
+    text-align: justify; 
+}
+
+
+.link {
+    
+    text-align: center;
+}
+
+.logo {
+    margin: 6rem;
+}
+
+
+
+.img10 {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.img5, .img6, .img8 {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.container2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 2rem;
+}
+
+.container5 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+}
+
+.container3 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+@media (min-width: 960px) {
+    .container, .container1, .container2, .container4, .container5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        width: 100%;
+
+    }
+    
+    .container3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    
+    .text {
+        grid-column: 2/5;
+        text-align: justify; 
+    }
+    
+    
+    .link {
+        grid-column: 2/5;
+        text-align: center;
+    }
+    
+    .logo {
+        grid-column: 3/4;
+        margin: 4rem;
+    }
+
+    img {
+        max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      }
+    
+    .img1, .concept {
+        grid-column: 2/5;
+        text-align: justify; 
+        margin: 2rem;
+    }
+    
+    .img2 {
+        grid-column: 2/5;
+        grid-row: 2/3;
+        margin: 2rem;
+    }
+    
+    .img3 {
+        grid-column: 2/5;
+        grid-row: 3/4;
+        margin: 2rem;
+    }
+    
+    .img4 {
+        grid-column: 2/5;
+        grid-row: 4/5;
+        margin: 2rem;
+    }
+    
+    .img5 {
+        grid-column: 2/3;
+        
+    }
+    
+    .img6 {
+        grid-column: 3/4;
+        
+    }
+    
+    .img7 {
+        grid-column: 2/3;
+        grid-row: 3;
+        
+    }
+    
+    .img8 {
+        grid-column: 3/4;
+        grid-row: 3;
+        max-width: 100%;
+    }
+    
+    .img9 {
+        grid-column: 2/4;
+        grid-row: 2;
+        margin: 2rem;
+    }
+    
+    .img10 {
+        grid-column: 4/5;
+        margin: 2rem;
+    }
+    
+    .text1 {
+        grid-column: 2/4;
+        grid-row: 4/5;
+        text-align: justify;
+    }
+}

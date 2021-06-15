@@ -1,0 +1,73 @@
+/* ---*img anne*--- */
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-family: InaiMathi;
+    text-align: center;
+}
+
+/* anne du må ikke bruge position absolute fiks det */
+
+.container {
+    width: 100%;
+    height: 70vh;
+    background-image: url(img/anne_my.jpg);
+    background-size: cover;
+    background-position: 25% 10%;
+    
+  }
+  
+  .center p {
+      color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  @media (min-width: 960px) {
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+  }
+  
+  p {
+      font-family: InaiMathi;
+      text-align: center;
+  }
+  
+  /* anne du må ikke bruge position absolute fiks det */
+  
+  .container {
+      position: relative;
+      background-image: none;
+    }
+    
+    .center p {
+        color: white;
+      position: absolute;
+      top: 38%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5rem;
+      font-weight: bold;
+    }
+
+  }
+
+ 
+  
+
+ 
+
+ 
